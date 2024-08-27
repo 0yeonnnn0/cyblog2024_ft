@@ -1,0 +1,40 @@
+/* GuestbookPage.jsx */
+.guestbook-form {
+  @apply overflow-x-hidden overflow-y-scroll bg-[#f0f8ff] w-[500px] h-[387px] rounded-[10px];
+}
+
+/* GBForm.jsx */
+.guestbook-post {
+  @apply flex flex-col bg-white border-gray-300 border-2 border-solid rounded-lg p-2 mb-4;
+}
+.guestbook-upload {
+  @apply w-full pt-[5px];
+}
+.guestbook-upload-btn {
+  @apply w-[50px] h-[35px] text-sm rounded-[10px];
+}
+
+/* GBUserInput.jsx */
+.guestbook-user-info {
+  @apply float-left w-[120px] h-full border-t-2 border-solid border-collapse p-1;
+}
+.guestbook-logged-in {
+  @apply bg-[#e4e4e4b3] text-gray-500;
+}
+
+/* GBTextArea.jsx */
+.guestbook-textarea {
+  @apply w-full p-1 overflow-hidden break-words resize-none outline-none;
+}
+
+/* GBContents.jsx */
+.guestbook-comments {
+  @apply flex flex-col gap-1 py-[14px] px-[5px] border-b border-solid border-gray-300;
+}
+
+.guestbook-username {
+  @apply inline font-bold font-mono text-[#6a6a6a] ml-[5px];
+}
+.guestbook-upload-date {
+  @apply text-gray-500 mb-[2px];
+}

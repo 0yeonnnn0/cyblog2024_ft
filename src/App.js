@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import HPFrame from "./components/Homepage/HPFrame";
+import HomePage from "./pages/HomePage";
+import { Helmet } from "react-helmet";
 
 function App() {
+
+  function getUserData() {
+    // axios.get(`/user/data`)
+    //   .then((result) => {
+    //     let resName = result.data.name
+    //     if (resName === undefined) {
+    //       dispatch(logOut())
+    //     } else {
+    //       setUserData(result.data)
+    //       dispatch(logIn())
+    //     }
+    //   });
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Helmet>
+        <title>Trust.</title>
+      </Helmet>
+
+      <HPFrame />
     </div>
   );
 }
