@@ -26,7 +26,7 @@ function LPTextForm() {
       <div className="flex items-center justify-between">
         <button
           type="submit"
-          className="w-login-button h-login-button rounded-login-button border border-transparent bg-theme-color-blue text-white"
+          className="w-login-button h-login-button rounded-login-button bg-theme-color-blue text-white"
         >
           로그인
         </button>

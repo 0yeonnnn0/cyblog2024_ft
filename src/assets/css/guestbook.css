@@ -1,6 +1,6 @@
 /* GuestbookPage.jsx */
 .guestbook-form {
-  @apply overflow-x-hidden overflow-y-scroll bg-[#f0f8ff] w-[500px] h-[387px] rounded-[10px];
+  @apply bg-[#f0f8ff] rounded-[10px];
 }
 
 /* GBForm.jsx */

@@ -9,7 +9,7 @@ function LoginPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="overflow-x-hidden overflow-y-auto w-[506px] h-[387px] border border-transparent rounded-[10px] p-[5px]">
+    <div className="border border-transparent rounded-[10px] p-[5px]">
       <div className="flex flex-col justify-center">
         <img src={logoImg} alt="Blog Logo Fire ver." className="w-56 mx-auto" />
         <div className="w-login-button m-[20px] mx-auto">

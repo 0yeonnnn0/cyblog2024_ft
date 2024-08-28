@@ -10,9 +10,9 @@ function HPPostIt() {
   const topButtons = [
     { path: "/", label: "홈" },
     { path: "/profile", label: "프로필" },
-    { path: "/note/all", label: "블로그" },
+    { path: "/blog", label: "블로그" },
     { path: "/guestbook", label: "방명록" },
-    { path: "/writenotes", label: "글쓰기" },
+    // { path: "/newpost", label: "글쓰기" },
   ];
 
   const bottomButtons = [
@@ -36,7 +36,7 @@ function HPPostIt() {
   };
 
   return (
-    <div className="float-right w-0 m-post-it flex flex-col gap-36">
+    <div className="float-right w-0 m-post-it flex flex-col gap-44">
       <div>
         {topButtons.map((button, index) => {
           return (

@@ -1,5 +1,5 @@
 .profile-container {
-    @apply grid gap-[23px] pr-[10px] w-[506px] h-[387px];
+    @apply grid gap-[23px] pr-[10px] ;
     grid-template-columns: 1fr 2fr;
 }
 
@@ -8,6 +8,5 @@
 }
 
 .profile-note {
-    @apply min-h-40;
     grid-column: 1 / span 2;
 }

@@ -1,14 +1,8 @@
-/**
- * @폐기예정 파일입니다.
- */
-
 import "../App.css";
-import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
-import { Suspense, lazy, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 import { useDispatch, useSelector } from "react-redux";
-import { logIn, logOut } from "../store/store.js";
-import axios from "axios";
 
 function HomePage() {
   let navigate = useNavigate();
@@ -20,7 +14,10 @@ function HomePage() {
 
   useEffect(() => {}, []);
 
-  return <>asdf</>;
+  return (
+    <>홈페이지 개발중
+    </>
+  );
 }
 
 export default HomePage;
